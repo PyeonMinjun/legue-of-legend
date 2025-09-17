@@ -47,6 +47,37 @@ GUILD_ID=서버ID
 RIOT_API_KEY=라이엇API키
 ```
 
+## 🔑 Required Accounts & Keys
+
+봇 실행을 위해 아래 계정 및 키 발급이 필요합니다:
+
+---
+
+### Discord Developer Portal
+- https://discord.com/developers/applications
+- 새 애플리케이션 생성 → **Bot** 추가 → **DISCORD_TOKEN** 복사
+
+### Client ID (애플리케이션 ID)
+- 애플리케이션 상세 페이지 → **OAuth2 → General** 탭
+- **Client Information**의 **Application ID** 복사 → `.env`의 `CLIENT_ID`에 입력
+
+---
+
+### Server ID (Guild ID)
+- 디스코드 앱에서 **사용자 설정 → 고급 → 개발자 모드** 활성화
+- 서버 아이콘 **우클릭 → 서버 ID 복사**
+- 복사한 ID를 `.env`의 `GUILD_ID`에 입력
+
+---
+
+### Riot Games Developer Portal
+- https://developer.riotgames.com/
+- Riot API Key 발급 후 `.env`의 `RIOT_API_KEY`에 입력  
+- ⚠️ 기본 **Development Key**는 **24시간만 유효** → 장기 사용 시 **Production Key** 필요
+
+
+
+
 ## 4. Run Bot
 ```bash
 node index.js
@@ -79,3 +110,8 @@ node index.js
 ---
 
 ## 📄 License
+
+
+
+https://developer.riotgames.com/ - 라이엇 개발자사이트 - most챔피언 라이엇 api
+discord앱에서 개발자키기 

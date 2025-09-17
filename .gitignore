@@ -1,1 +1,59 @@
+# =======================
+# Node.js 기본
+# =======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+*.tsbuildinfo
+
+# =======================
+# 환경설정 / 보안
+# =======================
 .env
+.env.local
+.env.*.local
+
+# =======================
+# 운영 중 생성되는 파일
+# =======================
+logs/
+*.log
+logs/*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =======================
+# 빌드/캐시
+# =======================
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# =======================
+# OS 관련
+# =======================
+.DS_Store
+Thumbs.db
+
+# =======================
+# IDE 관련
+# =======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# =======================
+# 테스트 관련
+# =======================
+jest-cache/
+jest-test-results.json
+

@@ -110,8 +110,3 @@ node index.js
 ---
 
 ## 📄 License
-
-
-
-https://developer.riotgames.com/ - 라이엇 개발자사이트 - most챔피언 라이엇 api
-discord앱에서 개발자키기 
